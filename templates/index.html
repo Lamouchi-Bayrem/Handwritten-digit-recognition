@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<body style="background: url('{{ url_for('static', filename='background2.jpg') }}') no-repeat center center fixed; background-size: cover;">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handwritten Digit Recognition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🖌 Draw a Number</h1>
+        <canvas id="canvas" width="280" height="280"></canvas>
+        <br>
+        <button onclick="predictDigit()">🔍 Predict</button>
+        <button onclick="clearCanvas()">🔄 Reset</button>
+        <p id="result"></p>
+        <img id="loader" src="{{ url_for('static', filename='loader.gif') }}" style="display: none;">
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
