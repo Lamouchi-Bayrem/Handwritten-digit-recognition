@@ -42,8 +42,8 @@ The model was trained using the **MNIST dataset**, achieving an accuracy of **98
 
 | **Input Image** | **Predicted Digit** |
 |----------------|--------------------|
-| ![Digit 0](img/Figure_3.png) | 3 |
-| ![Digit 3](img/Figure_7.png) | 7 |
+| ![Digit 0](img/Figure_3.png) | 0 |
+| ![Digit 3](img/Figure_7.png) | 3 |
 
 
 ---
@@ -131,9 +131,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 📧 Contact
 For any questions or feedback, feel free to reach out:
-- **Email**: [Your Email]
-- **GitHub**: [Your GitHub Profile]
-- **LinkedIn**: [Your LinkedIn Profile]
+- **Email**: [lamouchibayrem555@gmail.com]
+- **LinkedIn**: [Lamouchi-Bayrem]
 
 ---
 
