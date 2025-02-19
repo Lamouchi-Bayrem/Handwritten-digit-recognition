@@ -8,6 +8,7 @@ import io
 import os
 
 # Initialize Flask app
+
 app = Flask(__name__, static_folder='static', template_folder='templates')
 
 # Load the trained model
